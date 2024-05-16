@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Title_page{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20px;
+    background-color: green;
+}
+.Title{
+    text-align: center;
+    font-size: 300;
+}
+.Title_img{
+    height: 50vh;
+    width: 50vh;
+    margin-left: 36.5%;
+    margin-top: 4%;
+}
+.Heading_four{
+    text-align: center;
+    font-size: 100;
+}
+.Para_one{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.span_one{
+    font-weight: bolder;
+}
+.audio{
+    width: 25vw;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+.anchor{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin-left: 55%;
+    height: 45px;
+    padding-top: 10px;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+.chart_div{
+    height: 200px;
+    width: 50%;
+    position: relative;
+    margin-left:35%;
+    margin-top: 20px;
+    
+}
+.chart_one{
+    height: 25vh;
+    width: 2vw;
+    margin-left: 50%;
+    background-color: green;
+    position: absolute;
+    left: 8%;
+    bottom:0%;
+    animation-name: chart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.chart_two{
+    height: 25vh;
+    width: 2vw;
+    background-color: pink;
+    position: absolute;
+    left: 40%;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-name: chart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    bottom: 0%;
+}
+.chart_three{
+    height: 25vh;
+    width: 2vw;
+    background-color: yellow;
+    position: absolute;
+    right: 45%;
+    animation-direction: alternate;
+    animation-name: chart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.chart_four{
+    height: 25vh;
+    width: 2vw;
+    background-color: orange;
+    position: absolute;
+    left: 65%;
+    animation-direction: reverse;
+    animation-name: chart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+.chart_five{
+    height: 25vh;
+    width: 2vw;
+    background-color: black;
+    position: absolute;
+    left: 35%;
+    animation-direction: alternate;
+    animation-name: chart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    bottom: 0%;
+}
+.chart_six{
+    height: 25vh;
+    width: 2vw;
+    background-color: red;
+    position: absolute;
+    left: 45%;
+    animation-direction: reverse;
+    animation-name: chart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+@keyframes chart{
+    from{
+        height:200px;
+    }
+    to{
+     height: 0px;
+    }
+}
